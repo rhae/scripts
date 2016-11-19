@@ -1,6 +1,6 @@
 # digikam-exportfaces
 
-This script exports all images from digikam that have been tagged with a face selection.
+This script exports all images from digikam for a given name that have been tagged with a face selection.
 
 ![Example](example.png)
 
@@ -12,12 +12,12 @@ tclsh exportfaces <Name>
 
 # Requirements
 
-* tcl 8.6
-* imagemadigk 6 (convert-im6)
+* [tcl 8.6](http://core.tcl.tk)
+* [imagemagick 6](https://www.imagemagick.org) (convert-im6)
 
 # Licensing
 
-Copyright (c) 2015, R. Haertel
+Copyright (c) 2016, R. Haertel
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
